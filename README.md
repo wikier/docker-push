@@ -3,18 +3,25 @@
 [Docker](http://www.docker.com/) utility to automatically [squash](https://github.com/jwilder/docker-squash) 
 images before pushing.
 
+
 ## Requirements
 
 This script require to previously have installed both [Docker](https://docs.docker.com/engine/installation/) 
 and [docker-squash](https://github.com/jwilder/docker-squash#installation) in your system.
 
+
 ## Installation
 
-    sudo cp docker-push.sh /usr/local/bin/docker-push
+    wget https://github.com/wikier/docker-push/archive/0.1.tar.gz -O docker-push-0.1.tar.gz
+    tar -zxf docker-push-0.1.tar.gz
+    sudo cp docker-push-0.1/docker-push.sh /usr/local/bin/docker-push
 
 ## Development
 
     git clone git@github.com:wikier/docker-push.git
+    cd docker-push
+    ...
+    sudo cp docker-push.sh /usr/local/bin/docker-push
 
 PRs are welcomed :wink:
 
