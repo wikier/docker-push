@@ -6,7 +6,7 @@ images before pushing; nothing amazing, just a tool that saves time in a very co
 
 ## Requirements
 
-This script require to previously have installed both [Docker](https://docs.docker.com/engine/installation/) 
+This script requires to have previously installed both [Docker](https://docs.docker.com/engine/installation/) 
 and [docker-squash](https://github.com/jwilder/docker-squash#installation) in your system.
 
 
