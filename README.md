@@ -1,7 +1,11 @@
 # Docker Push
 
 [Docker](http://www.docker.com/) utility to automatically [squash](https://github.com/jwilder/docker-squash) 
-images before pushing; nothing amazing, just a tool that saves time in a very common workflow.
+images before pushing.
+
+This utility does nothing amazing, just what I normally need to do when pushing my images. So 
+the tool is just something that saves me time in a very common workflow I used to manually do.
+If you find it useful, great; if not, you can live without knowing it even exists.
 
 
 ## Requirements
