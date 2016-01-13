@@ -16,9 +16,9 @@ and [docker-squash](https://github.com/jwilder/docker-squash#installation) in yo
 
 ## Installation
 
-    wget https://github.com/wikier/docker-push/archive/0.1.tar.gz -O docker-push-0.1.tar.gz
-    tar -zxf docker-push-0.1.tar.gz
-    sudo cp docker-push-0.1/docker-push.sh /usr/local/bin/docker-push
+    wget https://github.com/wikier/docker-push/archive/0.2.tar.gz -O docker-push-0.2.tar.gz
+    tar -zxf docker-push-0.2.tar.gz
+    sudo cp docker-push-0.2/docker-push.sh /usr/local/bin/docker-push
 
 
 ## Usage
