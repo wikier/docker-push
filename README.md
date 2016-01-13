@@ -16,9 +16,9 @@ and [docker-squash](https://github.com/jwilder/docker-squash#installation) in yo
 
 ## Installation
 
-    wget https://github.com/wikier/docker-sqush/archive/0.2.tar.gz -O docker-sqush-0.2.tar.gz
-    tar -zxf docker-sqush-0.2.tar.gz
-    sudo cp docker-sqush-0.2/docker-push.sh /usr/local/bin/docker-sqush
+    wget https://github.com/wikier/docker-sqush/archive/0.3.tar.gz -O docker-sqush-0.3.tar.gz
+    tar -zxf docker-sqush-0.3.tar.gz
+    sudo cp docker-sqush-0.3/docker-sqush.sh /usr/local/bin/docker-sqush
 
 
 ## Usage
