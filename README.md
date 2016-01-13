@@ -20,6 +20,12 @@ and [docker-squash](https://github.com/jwilder/docker-squash#installation) in yo
     tar -zxf docker-push-0.1.tar.gz
     sudo cp docker-push-0.1/docker-push.sh /usr/local/bin/docker-push
 
+
+## Usage
+
+    docker-push foo/bar
+
+
 ## Development
 
     git clone git@github.com:wikier/docker-push.git
