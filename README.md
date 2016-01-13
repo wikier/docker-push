@@ -1,4 +1,4 @@
-# Docker Push
+# Docker Sqush
 
 [Docker](http://www.docker.com/) utility to automatically [squash](https://github.com/jwilder/docker-squash) 
 images before pushing.
@@ -16,22 +16,22 @@ and [docker-squash](https://github.com/jwilder/docker-squash#installation) in yo
 
 ## Installation
 
-    wget https://github.com/wikier/docker-push/archive/0.2.tar.gz -O docker-push-0.2.tar.gz
-    tar -zxf docker-push-0.2.tar.gz
-    sudo cp docker-push-0.2/docker-push.sh /usr/local/bin/docker-push
+    wget https://github.com/wikier/docker-sqush/archive/0.2.tar.gz -O docker-sqush-0.2.tar.gz
+    tar -zxf docker-sqush-0.2.tar.gz
+    sudo cp docker-sqush-0.2/docker-push.sh /usr/local/bin/docker-sqush
 
 
 ## Usage
 
-    docker-push foo/bar
+    docker-sqush foo/bar
 
 
 ## Development
 
-    git clone git@github.com:wikier/docker-push.git
-    cd docker-push
+    git clone git@github.com:wikier/docker-sqush.git
+    cd docker-sqush
     ...
-    sudo cp docker-push.sh /usr/local/bin/docker-push
+    sudo cp docker-sqush.sh /usr/local/bin/docker-sqush
 
 PRs are welcomed :wink:
 

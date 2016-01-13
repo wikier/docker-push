@@ -3,7 +3,7 @@
 if [[ $# -eq 0 ]]; then
     echo "No image supplied as first argument"
     echo
-    echo "Usage: docker-push IMAGE"
+    echo "Usage: docker-sqush IMAGE"
     echo
     exit -1
 fi
