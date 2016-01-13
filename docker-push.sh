@@ -19,5 +19,8 @@ IMAGE_ID=$(docker images -q $IMAGE)
 echo "Squashing image ${IMAGE} (${IMAGE_ID})..."
 docker save ${IMAGE_ID} | sudo docker-squash -t ${IMAGE} | docker load
 
+echo "Removing old image (${IMAGE_ID})..."
+docker rmi ${IMAGE_ID}
+
 echo "Pushing image ${IMAGE} (${IMAGE_ID})..."
 docker push ${IMAGE}
