@@ -1,7 +1,7 @@
 # Docker Sqush
 
 [Docker](http://www.docker.com/) utility to automatically [squash](https://github.com/jwilder/docker-squash) 
-images before pushing.
+images before pushing (`sqush=squash+push`).
 
 This utility does nothing amazing, just what I normally need to do when pushing my images. So 
 the tool is just something that saves me time in a very common workflow I used to manually do.
